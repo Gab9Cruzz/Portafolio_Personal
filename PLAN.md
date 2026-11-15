@@ -196,7 +196,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: `Projects`, `ProjectCard`, `Skills`, `Credentials`.
   - Verificación: enlaces a repos y demo correctos; ningún dato interno en la tarjeta de redes.
 
-- [ ] **Etapa 6 — Contacto y Footer**
+- [x] **Etapa 6 — Contacto y Footer**
   - Objetivo: enlaces, formulario `mailto` con validación y footer.
   - Archivos: `Contact`, `ContactForm`, `Footer`.
   - Verificación: validación del formulario; el `mailto` abre con asunto y cuerpo.

@@ -9,6 +9,8 @@ import { Seasons } from './components/sections/Seasons'
 import { Projects } from './components/sections/Projects'
 import { Skills } from './components/sections/Skills'
 import { Credentials } from './components/sections/Credentials'
+import { Contact } from './components/sections/Contact'
+import { Footer } from './components/layout/Footer'
 
 export default function App() {
   return (
@@ -24,7 +26,9 @@ export default function App() {
           <Projects />
           <Skills />
           <Credentials />
+          <Contact />
         </main>
+        <Footer />
       </ThemeProvider>
     </I18nProvider>
   )
