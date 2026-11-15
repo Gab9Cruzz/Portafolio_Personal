@@ -83,6 +83,18 @@ body {
   border-radius: 4px;
 }
 
+/* Resplandor suave del hero (azules de la paleta) */
+.hero-glow {
+  background:
+    radial-gradient(60% 50% at 85% 10%, rgb(0 83 140 / 0.35), transparent 70%),
+    radial-gradient(50% 45% at 5% 95%, rgb(0 43 94 / 0.55), transparent 70%);
+}
+[data-theme='light'] .hero-glow {
+  background:
+    radial-gradient(60% 50% at 85% 10%, rgb(0 83 140 / 0.16), transparent 70%),
+    radial-gradient(50% 45% at 5% 95%, rgb(90 169 230 / 0.2), transparent 70%);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

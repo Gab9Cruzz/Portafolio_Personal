@@ -181,7 +181,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: `src/data/*`, `src/i18n/*`, `src/theme/ThemeProvider.tsx`, `LangSwitch`, `ThemeToggle`.
   - Verificación: cambiar idioma y tema, recargar y ver que persisten; `tsc` limpio.
 
-- [ ] **Etapa 3 — Layout y Hero**
+- [x] **Etapa 3 — Layout y Hero**
   - Objetivo: navegación, drawer móvil, skip link, hero con ficha lateral y CV público.
   - Archivos: `components/layout/*`, `components/ui/*`, `Hero`, `PlayerCard`, `public/cv-gabriel-cruz.pdf`.
   - Verificación: 360, 768 y 1440 px; navegación con Tab; el PDF público no contiene teléfono ni correo.
