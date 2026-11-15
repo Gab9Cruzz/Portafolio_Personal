@@ -6,6 +6,9 @@ import { Hero } from './components/sections/Hero'
 import { About } from './components/sections/About'
 import { Scoreboard } from './components/sections/Scoreboard'
 import { Seasons } from './components/sections/Seasons'
+import { Projects } from './components/sections/Projects'
+import { Skills } from './components/sections/Skills'
+import { Credentials } from './components/sections/Credentials'
 
 export default function App() {
   return (
@@ -18,6 +21,9 @@ export default function App() {
           <About />
           <Scoreboard />
           <Seasons />
+          <Projects />
+          <Skills />
+          <Credentials />
         </main>
       </ThemeProvider>
     </I18nProvider>

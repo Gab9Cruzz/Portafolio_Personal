@@ -191,7 +191,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: `About`, `Scoreboard`, `Seasons`.
   - Verificación: cifras iguales a `src/data/`; el timeline se lee bien en móvil.
 
-- [ ] **Etapa 5 — Proyectos, Skills y Certificaciones**
+- [x] **Etapa 5 — Proyectos, Skills y Certificaciones**
   - Objetivo: 6 tarjetas de proyecto, skills agrupadas, certificaciones y educación.
   - Archivos: `Projects`, `ProjectCard`, `Skills`, `Credentials`.
   - Verificación: enlaces a repos y demo correctos; ningún dato interno en la tarjeta de redes.
