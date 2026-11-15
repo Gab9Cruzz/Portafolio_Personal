@@ -1,7 +1,6 @@
 import { profile } from '../../data/profile'
 import { useI18n } from '../../i18n/context'
 import { Button } from '../ui/Button'
-import { Reveal } from '../ui/Reveal'
 import { DownloadIcon, GithubIcon, LinkedinIcon } from '../ui/icons'
 import { PlayerCard } from './PlayerCard'
 
@@ -19,7 +18,7 @@ export function Hero() {
 
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1.25fr_1fr]">
         <div>
-          <Reveal>
+          <div className="rise">
             <p className="font-mono text-sm text-accent">{t('hero.eyebrow')}</p>
             <p className="mt-6 text-muted">{t('hero.greeting')}</p>
             <h1
@@ -28,16 +27,16 @@ export function Hero() {
             >
               {first} <span className="block text-accent">{rest.join(' ')}</span>
             </h1>
-          </Reveal>
+          </div>
 
-          <Reveal delay={0.1}>
+          <div className="rise" style={{ animationDelay: '0.1s' }}>
             <p className="mt-6 font-display text-2xl tracking-wide text-fg sm:text-3xl">
               {l(profile.role)}
             </p>
             <p className="mt-3 max-w-xl text-lg text-muted">{l(profile.tagline)}</p>
-          </Reveal>
+          </div>
 
-          <Reveal delay={0.2} className="mt-8 flex flex-wrap gap-3">
+          <div className="rise mt-8 flex flex-wrap gap-3" style={{ animationDelay: '0.2s' }}>
             <Button
               href={`${import.meta.env.BASE_URL}${profile.cvFile}`}
               variant="primary"
@@ -52,12 +51,12 @@ export function Hero() {
             <Button href={profile.linkedin} icon={<LinkedinIcon />} external>
               {t('hero.linkedin')}
             </Button>
-          </Reveal>
+          </div>
         </div>
 
-        <Reveal delay={0.25}>
+        <div className="rise" style={{ animationDelay: '0.25s' }}>
           <PlayerCard />
-        </Reveal>
+        </div>
       </div>
     </section>
   )

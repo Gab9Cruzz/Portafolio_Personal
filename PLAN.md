@@ -201,7 +201,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: `Contact`, `ContactForm`, `Footer`.
   - Verificación: validación del formulario; el `mailto` abre con asunto y cuerpo.
 
-- [ ] **Etapa 7 — Pulido: animaciones, accesibilidad, SEO y rendimiento**
+- [x] **Etapa 7 — Pulido: animaciones, accesibilidad, SEO y rendimiento**
   - Objetivo: reveals y conteos, reduced-motion, patrón de cancha, meta tags, Open Graph, favicon, `sitemap.xml`, `robots.txt`.
   - Archivos: `Reveal`, secciones, `index.html`, `public/*`.
   - Verificación: Lighthouse ≥ 90 en las 4 categorías sobre `npm run preview`; recorrido completo con teclado.

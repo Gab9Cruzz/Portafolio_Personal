@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gab9cruzz.github.io/portfolio/sitemap.xml
