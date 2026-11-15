@@ -9,6 +9,8 @@ interface SectionProps {
   children: ReactNode
   /** Fondo alterno para dar ritmo entre secciones */
   alt?: boolean
+  /** Decoración detrás del contenido (aria-hidden) */
+  background?: ReactNode
   className?: string
 }
 
@@ -19,14 +21,20 @@ export function Section({
   intro,
   children,
   alt,
+  background,
   className = '',
 }: SectionProps) {
   return (
     <section
       id={id}
       aria-labelledby={`${id}-title`}
-      className={`relative py-20 md:py-28 ${alt ? 'bg-surface/60' : ''} ${className}`}
+      className={`relative isolate overflow-hidden py-20 md:py-28 ${alt ? 'bg-surface/60' : ''} ${className}`}
     >
+      {background && (
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10">
+          {background}
+        </div>
+      )}
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Reveal className="mb-10 md:mb-14">
           <p className="font-mono text-sm text-accent">{eyebrow}</p>

@@ -3,6 +3,9 @@ import { ThemeProvider } from './theme/ThemeProvider'
 import { SkipLink } from './components/layout/SkipLink'
 import { Navbar } from './components/layout/Navbar'
 import { Hero } from './components/sections/Hero'
+import { About } from './components/sections/About'
+import { Scoreboard } from './components/sections/Scoreboard'
+import { Seasons } from './components/sections/Seasons'
 
 export default function App() {
   return (
@@ -12,6 +15,9 @@ export default function App() {
         <Navbar />
         <main id="main" tabIndex={-1} className="outline-none">
           <Hero />
+          <About />
+          <Scoreboard />
+          <Seasons />
         </main>
       </ThemeProvider>
     </I18nProvider>

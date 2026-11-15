@@ -186,7 +186,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: `components/layout/*`, `components/ui/*`, `Hero`, `PlayerCard`, `public/cv-gabriel-cruz.pdf`.
   - Verificación: 360, 768 y 1440 px; navegación con Tab; el PDF público no contiene teléfono ni correo.
 
-- [ ] **Etapa 4 — Sobre mí, Scoreboard y Temporadas**
+- [x] **Etapa 4 — Sobre mí, Scoreboard y Temporadas**
   - Objetivo: resumen profesional, marcador con las 4 cifras y timeline de 3 temporadas.
   - Archivos: `About`, `Scoreboard`, `Seasons`.
   - Verificación: cifras iguales a `src/data/`; el timeline se lee bien en móvil.
