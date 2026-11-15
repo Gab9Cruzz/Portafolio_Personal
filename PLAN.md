@@ -176,7 +176,7 @@ Wordmark, navegación, enlaces sociales y año.
   - Archivos: configs, `index.html`, `src/index.css`, `src/main.tsx`, `src/App.tsx`, `scripts/check-contrast.mjs`.
   - Verificación: `npm run dev`, `npm run build` y `npm run lint` sin errores; `npm run check:contrast` pasa.
 
-- [ ] **Etapa 2 — Datos, i18n y tema**
+- [x] **Etapa 2 — Datos, i18n y tema**
   - Objetivo: todo el contenido en `src/data/`, traducciones ES/EN, selector de idioma y de tema con persistencia.
   - Archivos: `src/data/*`, `src/i18n/*`, `src/theme/ThemeProvider.tsx`, `LangSwitch`, `ThemeToggle`.
   - Verificación: cambiar idioma y tema, recargar y ver que persisten; `tsc` limpio.

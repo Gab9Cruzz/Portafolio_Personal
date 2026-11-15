@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Gabriel Cruz | Ciberseguridad y Redes",
+    "description": "Portafolio de Gabriel Cruz: estudiante de Ingeniería en Sistemas Inteligentes en Guayaquil, con experiencia en ciberseguridad, redes, gestión de identidades y automatización."
+  },
+  "a11y": {
+    "skip": "Saltar al contenido principal",
+    "mainNav": "Navegación principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro",
+    "external": "(se abre en una pestaña nueva)",
+    "backToTop": "Volver arriba"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Skills",
+    "credentials": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "// ciberseguridad · redes · automatización",
+    "greeting": "Hola, soy",
+    "cv": "Ver CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "card": {
+    "title": "Ficha técnica",
+    "current": "Rol actual",
+    "base": "Base",
+    "focus": "Foco",
+    "languages": "Idiomas",
+    "number": "Dorsal"
+  },
+  "sections": {
+    "about": { "eyebrow": "01 / Perfil", "title": "Sobre mí" },
+    "scoreboard": { "eyebrow": "02 / Marcador", "title": "En cifras" },
+    "experience": { "eyebrow": "03 / Temporadas", "title": "Experiencia" },
+    "projects": { "eyebrow": "04 / Proyectos", "title": "Proyectos" },
+    "skills": { "eyebrow": "05 / Skills", "title": "Habilidades" },
+    "credentials": { "eyebrow": "06 / Formación", "title": "Certificaciones y educación" },
+    "contact": { "eyebrow": "07 / Contacto", "title": "Hablemos" }
+  },
+  "about": {
+    "location": "Ubicación",
+    "education": "Estudios",
+    "languages": "Idiomas"
+  },
+  "scoreboard": {
+    "caption": "Datos reales de mi experiencia profesional"
+  },
+  "experience": {
+    "season": "Temporada",
+    "present": "Actualidad",
+    "current": "En curso"
+  },
+  "projects": {
+    "intro": "Proyectos personales, académicos y de experiencia profesional.",
+    "repo": "Repositorio",
+    "demo": "Demo",
+    "status": {
+      "inProgress": "En progreso",
+      "professional": "Experiencia profesional"
+    }
+  },
+  "skills": {
+    "intro": "Tecnologías y herramientas con las que he trabajado."
+  },
+  "credentials": {
+    "education": "Educación",
+    "certifications": "Certificaciones",
+    "graduation": "Graduación prevista",
+    "viewCredential": "Ver credencial"
+  },
+  "contact": {
+    "intro": "¿Tienes una oportunidad o una consulta? Escríbeme por LinkedIn, revisa mi GitHub o usa el formulario.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "name": "Nombre",
+    "email": "Tu correo",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "hint": "Al enviar se abrirá tu cliente de correo con el mensaje listo.",
+    "errors": {
+      "name": "Escribe tu nombre.",
+      "email": "Escribe un correo válido.",
+      "message": "Escribe un mensaje de al menos 10 caracteres."
+    },
+    "notConfigured": "El correo de contacto aún no está configurado. Usa LinkedIn mientras tanto.",
+    "subject": "Contacto desde el portafolio",
+    "copy": "Copiar correo",
+    "copied": "Copiado"
+  },
+  "footer": {
+    "built": "Hecho con React, Vite y Tailwind CSS.",
+    "rights": "Todos los derechos reservados."
+  }
+}

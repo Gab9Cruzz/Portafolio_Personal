@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Gabriel Cruz | Cybersecurity & Networking",
+    "description": "Gabriel Cruz's portfolio: Intelligent Systems Engineering student in Guayaquil with experience in cybersecurity, networking, identity management and automation."
+  },
+  "a11y": {
+    "skip": "Skip to main content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "external": "(opens in a new tab)",
+    "backToTop": "Back to top"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "credentials": "Credentials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "// cybersecurity · networking · automation",
+    "greeting": "Hi, I'm",
+    "cv": "View CV",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "card": {
+    "title": "Player card",
+    "current": "Current role",
+    "base": "Base",
+    "focus": "Focus",
+    "languages": "Languages",
+    "number": "Number"
+  },
+  "sections": {
+    "about": { "eyebrow": "01 / Profile", "title": "About me" },
+    "scoreboard": { "eyebrow": "02 / Scoreboard", "title": "By the numbers" },
+    "experience": { "eyebrow": "03 / Seasons", "title": "Experience" },
+    "projects": { "eyebrow": "04 / Projects", "title": "Projects" },
+    "skills": { "eyebrow": "05 / Skills", "title": "Skills" },
+    "credentials": { "eyebrow": "06 / Training", "title": "Certifications & education" },
+    "contact": { "eyebrow": "07 / Contact", "title": "Let's talk" }
+  },
+  "about": {
+    "location": "Location",
+    "education": "Education",
+    "languages": "Languages"
+  },
+  "scoreboard": {
+    "caption": "Real figures from my professional experience"
+  },
+  "experience": {
+    "season": "Season",
+    "present": "Present",
+    "current": "Current"
+  },
+  "projects": {
+    "intro": "Personal, academic and professional-experience projects.",
+    "repo": "Repository",
+    "demo": "Demo",
+    "status": {
+      "inProgress": "In progress",
+      "professional": "Professional experience"
+    }
+  },
+  "skills": {
+    "intro": "Technologies and tools I have worked with."
+  },
+  "credentials": {
+    "education": "Education",
+    "certifications": "Certifications",
+    "graduation": "Expected graduation",
+    "viewCredential": "View credential"
+  },
+  "contact": {
+    "intro": "Got an opportunity or a question? Reach out on LinkedIn, check my GitHub or use the form.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "name": "Name",
+    "email": "Your email",
+    "message": "Message",
+    "send": "Send message",
+    "hint": "Sending opens your email client with the message ready.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email.",
+      "message": "Please write a message of at least 10 characters."
+    },
+    "notConfigured": "The contact email isn't configured yet. Please use LinkedIn in the meantime.",
+    "subject": "Contact from portfolio",
+    "copy": "Copy email",
+    "copied": "Copied"
+  },
+  "footer": {
+    "built": "Built with React, Vite and Tailwind CSS.",
+    "rights": "All rights reserved."
+  }
+}
