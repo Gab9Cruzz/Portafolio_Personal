@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Cruz | Ciberseguridad y Redes</title>
+    <meta
+      name="description"
+      content="Portafolio de Gabriel Cruz: estudiante de Ingeniería en Sistemas Inteligentes en Guayaquil, con experiencia en ciberseguridad, redes, gestión de identidades y automatización."
+    />
+    <meta name="author" content="Gabriel Cruz León" />
+    <meta name="theme-color" content="#0B0F17" />
+    <link rel="canonical" href="https://gab9cruzz.github.io/portfolio/" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gabriel Cruz Portfolio" />
+    <meta property="og:title" content="Gabriel Cruz | Ciberseguridad y Redes" />
+    <meta
+      property="og:description"
+      content="Ciberseguridad, redes y automatización. Portafolio de proyectos, experiencia y certificaciones."
+    />
+    <meta property="og:url" content="https://gab9cruzz.github.io/portfolio/" />
+    <meta property="og:image" content="https://gab9cruzz.github.io/portfolio/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="es_EC" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      // Aplica idioma y tema guardados antes del primer pintado (evita parpadeos).
+      try {
+        var t = localStorage.getItem('gc-theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+        var l = localStorage.getItem('gc-lang')
+        if (l === 'es' || l === 'en') document.documentElement.lang = l
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript
+      >Gabriel Cruz — Ciberseguridad y Redes. Activa JavaScript para ver el portafolio.</noscript
+    >
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

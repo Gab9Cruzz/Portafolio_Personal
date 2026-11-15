@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+
+/* ───────────── Tokens de marca (paleta inspirada en los Dallas Mavericks) ───────────── */
+@theme {
+  --color-ink: #0b0f17;
+  --color-midnight: #0b0b4f;
+  --color-navy: #002b5e;
+  --color-royal: #00538c;
+  --color-sky: #5aa9e6;
+  --color-silver: #b8c4ca;
+  --color-snow: #f5f7fa;
+
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --breakpoint-xs: 30rem;
+}
+
+/* ───────────── Tokens semánticos (cambian con el tema) ───────────── */
+:root,
+[data-theme='dark'] {
+  --bg: #0b0f17;
+  --surface: #0b0b4f;
+  --surface-2: #002b5e;
+  --fg: #f5f7fa;
+  --muted: #b8c4ca;
+  --accent: #5aa9e6; /* texto/enlaces */
+  --primary: #00538c; /* rellenos: botones */
+  --on-primary: #f5f7fa;
+  --line: rgb(184 196 202 / 0.18);
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --surface-2: #e4ebf2;
+  --fg: #0b0f17;
+  --muted: #3d4b55;
+  --accent: #00538c;
+  --primary: #00538c;
+  --on-primary: #f5f7fa;
+  --line: rgb(11 15 23 / 0.16);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-line: var(--line);
+}
+
+/* ───────────── Base ───────────── */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
