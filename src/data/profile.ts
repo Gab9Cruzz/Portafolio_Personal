@@ -5,7 +5,7 @@ import type { L10n } from './types'
  * TODO: escribe aquí tu correo (por ejemplo 'tu@correo.com'). Se deja vacío a propósito para no
  * publicar ningún dato personal hasta que lo decidas.
  */
-export const CONTACT_EMAIL = ''
+export const CONTACT_EMAIL = 'tecnologiag87@gmail.com'
 
 export const profile = {
   name: 'Gabriel Cruz',
@@ -19,6 +19,12 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/gabrielcruzleon/',
   /** Ruta relativa a /public. TODO: reemplaza el PDF por tu CV público (sin teléfono ni correo). */
   cvFile: 'cv-gabriel-cruz.pdf',
+  /** Foto de perfil (en /public). Reemplázala por otra con el mismo nombre si quieres cambiarla. */
+  photo: 'profile.webp',
+  photoAlt: {
+    es: 'Retrato de Gabriel Cruz con camisa celeste',
+    en: 'Portrait of Gabriel Cruz wearing a light blue shirt',
+  } satisfies L10n,
 
   role: {
     es: 'Cybersecurity & Networking | Sistemas Inteligentes',

@@ -17,11 +17,24 @@ export function PlayerCard() {
       aria-label={t('card.title')}
       className="relative overflow-hidden rounded-2xl border border-line bg-surface shadow-xl shadow-black/20"
     >
-      <div className="relative bg-gradient-to-br from-royal to-navy px-6 pt-5 pb-8 text-snow">
-        <p className="font-mono text-xs tracking-widest uppercase opacity-90">{t('card.title')}</p>
-        <p className="mt-1 font-display text-3xl font-bold tracking-wide uppercase">
-          {profile.name}
-        </p>
+      <div className="relative flex items-center gap-4 bg-gradient-to-br from-royal to-navy px-6 pt-5 pb-6 text-snow">
+        <img
+          src={`${import.meta.env.BASE_URL}${profile.photo}`}
+          alt={l(profile.photoAlt)}
+          width={96}
+          height={96}
+          fetchPriority="high"
+          decoding="async"
+          className="relative z-10 h-20 w-20 shrink-0 rounded-xl object-cover ring-2 ring-snow/40 sm:h-24 sm:w-24"
+        />
+        <div className="relative z-10 min-w-0">
+          <p className="font-mono text-xs tracking-widest uppercase opacity-90">
+            {t('card.title')}
+          </p>
+          <p className="mt-1 font-display text-3xl leading-none font-bold tracking-wide uppercase">
+            {profile.name}
+          </p>
+        </div>
         <span
           aria-hidden="true"
           className="pointer-events-none absolute -top-2 right-3 font-display text-[7rem] leading-none font-bold text-snow/10 select-none"

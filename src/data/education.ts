@@ -40,7 +40,7 @@ export const certifications: Certification[] = [
       es: 'Gestión de riesgos y NIST, seguridad de red, amenazas y vulnerabilidades, detección y respuesta a incidentes, automatización con Python.',
       en: 'Risk management and NIST, network security, threats and vulnerabilities, incident detection and response, Python automation.',
     },
-    // url: 'TODO',
+    url: 'https://www.credly.com/badges/6a6f1f57-e601-4264-927d-a72cd5881f8d/linked_in_profile',
   },
   {
     id: 'cisco-netacad',
