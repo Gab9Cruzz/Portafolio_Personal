@@ -53,6 +53,21 @@ El sitio se publica en GitHub Pages con GitHub Actions en cada push a `main`
 (`.github/workflows/deploy.yml`). En el repositorio, ve a **Settings → Pages** y elige
 **Source: GitHub Actions**. La ruta base de Vite es `/portfolio/` (ver `vite.config.ts`).
 
+## Antes de publicar: cosas por completar
+
+- [ ] `CONTACT_EMAIL` en `src/data/profile.ts` (el formulario avisa que no está configurado mientras esté vacío).
+- [ ] Revisar `public/cv-gabriel-cruz.pdf`: es una versión pública del CV sin teléfono ni correo. Reemplázalo cuando actualices tu CV.
+- [ ] URL de las credenciales (Google, Cisco, etc.): campo `url` en `src/data/education.ts`.
+- [ ] Opcional: foto de perfil (el diseño actual no la necesita).
+
+## Verificaciones de calidad
+
+```bash
+npm run lint             # ESLint
+npm run check:contrast   # WCAG AA de la paleta
+npm run build && npm run preview   # y pasa Lighthouse sobre el build
+```
+
 ## Licencia
 
 [MIT](LICENSE)
