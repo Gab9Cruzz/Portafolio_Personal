@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gab9cruzz.github.io/portfolio/sitemap.xml
+Sitemap: https://gab9cruzz.github.io/Portafolio_Personal/sitemap.xml

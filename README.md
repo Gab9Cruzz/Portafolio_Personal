@@ -3,7 +3,7 @@
 Portafolio personal de **Gabriel Cruz** (Ciberseguridad y Redes · Ingeniería en Sistemas Inteligentes).
 Sitio bilingüe ES/EN construido con React, Vite, TypeScript, Tailwind CSS y Framer Motion.
 
-Sitio publicado: <https://gab9cruzz.github.io/portfolio/>
+Sitio publicado: <https://gab9cruzz.github.io/Portafolio_Personal/>
 
 ## Requisitos
 
@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Abre la URL que muestra la terminal (normalmente `http://localhost:5173/portfolio/`).
+Abre la URL que muestra la terminal (normalmente `http://localhost:5173/Portafolio_Personal/`).
 
 ## Scripts
 
@@ -51,7 +51,7 @@ Los campos con texto usan `{ es, en }`. Lo que falta por completar está marcado
 
 El sitio se publica en GitHub Pages con GitHub Actions en cada push a `main`
 (`.github/workflows/deploy.yml`). En el repositorio, ve a **Settings → Pages** y elige
-**Source: GitHub Actions**. La ruta base de Vite es `/portfolio/` (ver `vite.config.ts`).
+**Source: GitHub Actions**. La ruta base de Vite es `/Portafolio_Personal/` (ver `vite.config.ts`).
 
 ## Antes de publicar: cosas por completar
 

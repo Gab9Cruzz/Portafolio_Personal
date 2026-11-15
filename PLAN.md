@@ -1,7 +1,11 @@
 ﻿# PLAN — Gabriel Cruz Portfolio
 
 Portafolio personal para postular a puestos de ciberseguridad y redes TI.
-Sitio final: `https://gab9cruzz.github.io/portfolio/`
+Sitio final: `https://gab9cruzz.github.io/Portafolio_Personal/`
+
+> **Cambio acordado:** el repositorio es `Gab9Cruzz/Portafolio_Personal` (en lugar de `portfolio`), por lo que
+> la URL final es `https://gab9cruzz.github.io/Portafolio_Personal/` y el `base` de Vite es `/Portafolio_Personal/`.
+> Los commits usan el correo noreply de GitHub para no publicar el correo personal.
 
 ## Reglas de trabajo
 
@@ -20,7 +24,7 @@ Sitio final: `https://gab9cruzz.github.io/portfolio/`
 - i18n propio (provider pequeño, sin librería): ES por defecto, EN opcional.
 - Iconos como SVG en línea. Fuentes autoalojadas en WOFF2.
 - ESLint + Prettier.
-- GitHub Pages con GitHub Actions; `base: '/portfolio/'`.
+- GitHub Pages con GitHub Actions; `base: '/Portafolio_Personal/'`.
 
 ## Diseño
 
@@ -172,7 +176,7 @@ Wordmark, navegación, enlaces sociales y año.
 ## Etapas
 
 - [x] **Etapa 1 — Base del proyecto**
-  - Objetivo: Vite + React + TS, Tailwind con los tokens, ESLint/Prettier, fuentes, git, `.gitignore`, licencia MIT, README inicial, `base: '/portfolio/'`.
+  - Objetivo: Vite + React + TS, Tailwind con los tokens, ESLint/Prettier, fuentes, git, `.gitignore`, licencia MIT, README inicial, `base: '/Portafolio_Personal/'`.
   - Archivos: configs, `index.html`, `src/index.css`, `src/main.tsx`, `src/App.tsx`, `scripts/check-contrast.mjs`.
   - Verificación: `npm run dev`, `npm run build` y `npm run lint` sin errores; `npm run check:contrast` pasa.
 
@@ -207,9 +211,9 @@ Wordmark, navegación, enlaces sociales y año.
   - Verificación: Lighthouse ≥ 90 en las 4 categorías sobre `npm run preview`; recorrido completo con teclado.
 
 - [ ] **Etapa 8 — Despliegue y cierre**
-  - Objetivo: workflow de Actions, README final, repo público `portfolio` en `Gab9Cruzz`, push a `main`, GitHub Pages y resumen final.
+  - Objetivo: workflow de Actions, README final, repo público `Portafolio_Personal` en `Gab9Cruzz`, push a `main`, GitHub Pages y resumen final.
   - Archivos: `.github/workflows/deploy.yml`, `README.md`.
-  - Verificación: el workflow termina en verde y `https://gab9cruzz.github.io/portfolio/` carga.
+  - Verificación: el workflow termina en verde y `https://gab9cruzz.github.io/Portafolio_Personal/` carga.
 
 ## Entregables finales
 
