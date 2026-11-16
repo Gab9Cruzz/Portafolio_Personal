@@ -26,8 +26,8 @@ export const experience: Experience[] = [
     end: null,
     bullets: [
       {
-        es: 'Administro reglas y políticas de firewall y segmentación de red mediante VLANs, aplicando el principio de mínimo privilegio en la infraestructura de una entidad financiera.',
-        en: 'I manage firewall rules and policies and network segmentation using VLANs, applying the principle of least privilege on a financial institution’s infrastructure.',
+        es: 'Administro reglas y políticas de firewall y segmentación de red mediante VLANs, aplicando el principio de mínimo privilegio.',
+        en: 'I manage firewall rules and policies and network segmentation using VLANs, applying the principle of least privilege.',
       },
       {
         es: 'Monitoreo la red y reviso logs para detectar eventos anómalos y escalar posibles incidentes de seguridad.',

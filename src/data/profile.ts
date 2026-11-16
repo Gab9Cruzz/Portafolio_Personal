@@ -32,8 +32,8 @@ export const profile = {
   } satisfies L10n,
 
   tagline: {
-    es: 'Seguridad, redes y automatización desde el sector financiero.',
-    en: 'Security, networking and automation from the financial sector.',
+    es: 'Seguridad, redes y automatización.',
+    en: 'Security, networking and automation.',
   } satisfies L10n,
 
   availability: {
@@ -44,8 +44,8 @@ export const profile = {
   /** Párrafos de "Sobre mí" (basados en el perfil profesional del CV). */
   summary: [
     {
-      es: 'Estudiante de último semestre de Ingeniería en Sistemas Inteligentes en la Universidad ECOTEC, con experiencia en operaciones de TI, redes y seguridad, actualmente en el sector financiero.',
-      en: 'Final-semester Intelligent Systems Engineering student at Universidad ECOTEC, with hands-on experience in IT operations, networking and security, currently working in the financial sector.',
+      es: 'Estudiante de último semestre de Ingeniería en Sistemas Inteligentes en la Universidad ECOTEC, con experiencia en operaciones de TI, redes y seguridad.',
+      en: 'Final-semester Intelligent Systems Engineering student at Universidad ECOTEC, with hands-on experience in IT operations, networking and security.',
     },
     {
       es: 'He trabajado en gestión de identidades y accesos (Entra ID, Active Directory, MFA), seguridad perimetral (FortiGate, Sophos), monitoreo de eventos y respuesta a incidentes.',

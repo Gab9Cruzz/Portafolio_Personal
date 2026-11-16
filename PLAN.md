@@ -101,14 +101,14 @@ Los textos de interfaz van en `src/i18n/*.json`. El contenido editable va en `sr
 
 - Nombre: Gabriel Cruz.
 - Rol: "Cybersecurity & Networking | Sistemas Inteligentes".
-- Frase (propuesta, por aprobar en la etapa 3): "Seguridad, redes y automatización desde el sector financiero."
+- Frase (propuesta, por aprobar en la etapa 3): "Seguridad, redes y automatización."
 - Botones: CV, GitHub (`https://github.com/Gab9Cruzz`), LinkedIn (`https://www.linkedin.com/in/gabrielcruzleon/`).
 - Ficha lateral: rol actual, base (Guayaquil), foco, disponibilidad, dorsal 77. Sin foto, igual que la referencia.
 
 ### 2. Sobre mí
 
 Estudiante de último semestre de Ingeniería en Sistemas Inteligentes (ECOTEC), con experiencia en
-operaciones de TI, redes y seguridad, actualmente en el sector financiero. Gestión de identidades y
+operaciones de TI, redes y seguridad. Gestión de identidades y
 accesos, seguridad perimetral, monitoreo y respuesta a incidentes; automatización con Python,
 PowerShell y Power Automate. Guayaquil, Ecuador. Español nativo, inglés B1.
 
